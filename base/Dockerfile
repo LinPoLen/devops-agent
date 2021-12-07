@@ -1,6 +1,5 @@
 FROM centos:8
 
-
 # utils
 RUN yum install -y epel-release ca-certificates && \
   yum install -y unzip \
